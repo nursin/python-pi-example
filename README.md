@@ -1,2 +1,5 @@
 # python-pi-example
-This is an example file to show the use of git on ubuntu.
+for i in range(16):
+	print(i)
+print("Done")
+
