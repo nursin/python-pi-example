@@ -1,0 +1,11 @@
+SERVICES 
+sudo service (serviceNAme) start
+sudo service (serviceName) stop
+sudo service (serviceNAme) restart
+
+NEW COMMANDS
+sudo systemctl (serviceName) start
+sudo systemctl (serviceName) stop
+sudo systemctl (serviceName) restart
+
+

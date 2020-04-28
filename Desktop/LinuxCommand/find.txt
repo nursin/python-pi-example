@@ -1,0 +1,11 @@
+FIND
+find . -type f -not -iname "*.searchName"
+find . maxdepth 1 -type f -iname "*.searchName"
+find /fileName "" "" "" "" ""
+find . -maxdepth -type f -iname "*.conf" -size +50k
+find . -size -1M
+
+""" -1M = megabyte, k = kilobyte, G = gigabyte? 
+    -type f = file, -type d = directory """
+
+
