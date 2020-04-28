@@ -1,9 +1,0 @@
-GREP
-grep "searchName" fileName
-grep -n -i "searchName" ./fileName
-
-find -type f -iname "*serachName" -exec grep -i -n "searchName" {} +
-find -type f -size 10k -iname "searchName" -exec grep -i -n "searchName" {} +
-
-PRINTS TO SCREEN AND MAKES FILE OF.TXT
-find -type f -size -10k -iname "searchName" -exec grep -i -n "searchNAme" {} + | tee of.txt
